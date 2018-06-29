@@ -12,6 +12,12 @@ namespace PopularGames.Core
             InitializeComponent();
             BuildDependencies();
             InitNavigation();
+
+            // Initializa LiveReload
+            //#if DEBUG
+            //LiveReload.Init();
+            //#endif
+
         }
 
         public void BuildDependencies()

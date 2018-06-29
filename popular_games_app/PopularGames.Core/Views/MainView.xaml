@@ -46,8 +46,8 @@
                                     Grid.Column="0"
                                     Grid.Row="0"
                                     VerticalOptions="CenterAndExpand"
-                                    HeightRequest="40"
-                                    WidthRequest="40"
+                                    HeightRequest="50"
+                                    WidthRequest="50"
                                     Source="{Binding Cover.Thumb}" />
                                 <Label
                                     Grid.Column="1"
